@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Montserrat&display=swap");
+@media (max-width: 500px) {
+  #body {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  #img-div {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+#main {
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  /* background-color: #E5F7E1; */
+  background-color: #87d975;
+  max-width: 1500px;
+}
+#title {
+  margin: 0 20% 0 20%;
+  font-family: "Hanalei Fill", cursive;
+  font-size: 3em;
+  text-align: center;
+  background-color: #87d975;
+}
+#subtitulo {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 2em;
+  color: #e5f7e1;
+}
+#img-div {
+  padding-top: 5%;
+  background-color: #e5f7e1;
+  display: block;
+  margin: auto;
+  width: 100%;
+  border-radius: 5%;
+  border-width: 1px;
+  text-align: center;
+}
+#image {
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  max-width: 70%;
+  display: block;
+  margin: auto;
+}
+#body {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  padding: 5em;
+  box-sizing: border-box;
+  width: 98%;
+}
+.sub {
+  color: #e5f7e1;
+}
+.footer {
+  margin: 0 25% 0 25%;
+  background-color: #e5f7e1;
+  text-align: center;
+  font-family: oswald bold-700;
+  font-size: 35px;
+  color: #adff14;
+}
+#img-caption {
+  font-weight: 700;
+  font-size: 20px;
+  color: #adff14;
+  padding: 35px;
+}
